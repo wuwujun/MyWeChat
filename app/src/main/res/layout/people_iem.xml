@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5px"
+        android:adjustViewBounds="true"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:padding="5dp"
+        android:src="@drawable/picture1" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="wuwujun"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+
+            android:text="天气好好我要洗澡"
+            android:textColor="#bdbdbd"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- <TextView
+        android:layout_weight="1"
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:text="8:18AM"
+        android:textColor="#bdbdbd"
+        android:textSize="14sp" /> -->
+
+</LinearLayout>
