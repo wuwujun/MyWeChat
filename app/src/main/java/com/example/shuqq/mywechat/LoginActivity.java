@@ -183,7 +183,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 editor.clear();
             }
             editor.apply();
-            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            Intent intent = new Intent(LoginActivity.this, WholeActivity.class);
             startActivity(intent);
             finish();
         } else {
